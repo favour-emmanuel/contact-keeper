@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { data } from "../../data";
 
 const Table = () => {
-  console.log(data);
+  // console.log(data);
+  const [search, setsearch] = useState("");
   return (
     <div className="pt-2 mx-auto max-w-5xl">
       <div className="flex justify-center my-4">
